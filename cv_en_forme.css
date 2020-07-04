@@ -1,0 +1,307 @@
+body
+{
+	background-color:white; width:auto;
+	display: flex;
+	flex-direction: row;
+}
+
+/*partie de gauche bloc1 en vertical*/
+#conteneur1
+{
+	display:flex;
+	flex-direction: column;
+	padding-bottom: 0px;
+	width: 400px;
+	height:1250px;
+	padding-top: 2px;
+
+}
+
+.photo
+{
+	height: 180px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+h2 /*tous les titres*/
+{
+	text-align: center;
+	background-color: blueviolet;
+	border:1px solid blueviolet;
+	color: white;
+	font-size: 17px;
+}
+
+.presentation
+{
+	text-align: justify;
+	background-color: rgb(205, 202, 241);
+	font-size: 17px;
+
+}
+.outils
+{
+	text-align: justify;
+	background-color: rgb(205, 202, 241);
+	font-size: 17px;
+}
+.strong
+{
+	text-align: justify; font-weight:bold; font-size: 20px;
+}
+
+.contact
+{
+	text-align: justify;
+	background-color: rgb(205, 202, 241);
+	font-size: 17px;
+}	
+.loisirs
+{
+	text-align: justify;
+	background-color: rgb(205, 202, 241);
+	font-size: 17px;
+}
+/*partie de droite bloc2 en vertical*/
+#conteneur2
+{
+	display:flex;
+	flex-direction: column;
+	width: 100%;
+	
+	
+	
+}
+
+h1
+{
+	font-size:50px; margin:auto;
+	color: blueviolet;
+	text-align: center;
+}
+
+h3
+{
+	color: rgb(193, 150, 233);
+	text-align: center;
+	font-size: 27px;
+}
+h4
+{
+	text-align: center;
+	background-color: blueviolet;
+	color: white;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 17px;
+}
+.ligne1
+{
+	display: flex;
+	flex-direction: wrap;
+	padding-bottom: 15px;
+
+}
+.ligne2
+{
+	display: flex;
+	flex-direction: wrap;
+	padding-bottom: 15px;
+
+}
+.ligne3
+{
+	display: flex;
+	flex-direction: wrap;
+}
+
+.puce
+{
+	
+	padding-left: 150px;
+}
+
+.année
+{
+	padding-left: 50px;
+
+	width: 30%;
+}
+
+.texte
+{
+	
+
+	width: 50%;
+}
+.recommandations
+{
+	display: flex;
+	flex-direction: wrap;
+	justify-content: space-around;
+	
+}
+em
+{
+	font-style: italic;
+}
+
+	
+@media all and (max-width : 850px)	
+
+{
+	body
+	{
+		background-color: peachpuff;
+	}
+	
+	#conteneur1 /*premier bloc elements direction colonne*/
+	{
+		display:flex;
+		flex-direction: column;
+		padding-bottom: 0px;
+		width: 200px;
+		height:auto;
+		padding-top: 0px;
+	
+	}
+	
+	.photo
+	{
+		height: 180px;
+		margin-left: 10px;
+		padding-bottom:5px;
+		
+	}
+	
+	h2 /*tous les titres*/
+	{
+		text-align: center;
+		background-color: blueviolet;
+		border:1px solid blueviolet;
+		color: white;
+		font-size: 12px;
+	}
+	
+	.presentation
+	{
+		text-align: justify;
+		background-color: rgb(205, 202, 241);
+		font-size: 12px;
+	
+	}
+	.outils
+	{
+		text-align: justify;
+		background-color: rgb(205, 202, 241);
+		font-size: 12px;
+	}
+	.strong
+	{
+		text-align: justify; font-weight:bold; font-size: 15px;
+	}
+	
+	.contact
+	{
+		text-align: justify;
+		background-color: rgb(205, 202, 241);
+		font-size: 12px;
+	}	
+	.loisirs
+	{
+		text-align: justify;
+		background-color: rgb(205, 202, 241);
+		font-size: 12px;
+	}	
+	
+	#conteneur2
+	{
+		display:flex;
+		flex-direction: column;
+		width: 100%;
+	
+	}
+
+	h1
+	{
+		font-size:30px; margin:auto;
+		color: blueviolet;
+		text-align: center;
+	}
+
+	h3
+	{
+		color: rgb(193, 150, 233);
+		text-align: center;
+		font-size: 20px;
+	}
+	h4
+	{
+		text-align: center;
+		background-color: blueviolet;
+		color: white;
+		margin-left: 50px;
+		margin-right: 50px;
+		font-size: 15px;
+	}
+	.ligne1
+	{
+		display: flex;
+		flex-direction: wrap;
+		padding-bottom: 12px;
+
+	}
+	.ligne2
+	{
+		display: flex;
+		flex-direction: wrap;
+		padding-bottom: 12px;
+
+	}
+	.ligne3
+	{
+		display: flex;
+		flex-direction: wrap;
+	}
+
+	.puce
+	{
+	
+	padding-left: 45px;
+	}
+
+	.année
+	{
+		padding-left: 10px;
+
+		width: 30%;
+	}
+
+	.texte
+	{
+	
+
+		width: 50%;
+	}
+	.recommandations
+	{
+	display: flex;
+	flex-direction: wrap;
+	justify-content: space-around;
+	
+	}
+	em
+	{
+		font-style: italic;
+	}
+
+	
+	
+}
+
+
+	
+
+
+
