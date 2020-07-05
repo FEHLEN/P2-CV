@@ -1,0 +1,322 @@
+body
+{
+	background-color:white; width:auto;
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*partie de gauche bloc1 en vertical*/
+#section1
+{
+	display:flex;
+	flex-direction: column;
+	padding-bottom: 0px;
+	width: 400px;
+	height:auto;
+	padding-top: 2px;
+
+}
+
+.photo
+{
+	height: 180px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+h2 /*tous les titres*/
+{
+	text-align: center;
+	background-color:rgb(147, 90, 201);
+	border:1px solid rgb(147, 90, 201);
+	color: white;
+	font-size: 17px;
+}
+
+.element1
+{
+	text-align: justify;
+	background-color: rgb(205, 202, 241);
+	font-size: 17px;
+
+}
+.element2
+{
+	text-align: justify;
+	background-color: rgb(205, 202, 241);
+	font-size: 17px;
+}
+.strong
+{
+	text-align: justify; font-weight:bold; font-size: 20px;
+}
+
+.element3
+{
+	
+	background-color: rgb(205, 202, 241);
+	font-size: 17px;
+}	
+.element4
+{
+	text-align: justify;
+	background-color: rgb(205, 202, 241);
+	font-size: 17px;
+}
+
+
+/*partie de droite bloc2 en vertical*/
+#section2
+{
+	display:flex;
+	flex-direction: column;
+	width: 100%;	
+	
+}
+
+h1
+{
+	font-size:50px; margin:auto;
+	color:rgb(147, 90, 201);
+	text-align: center;
+}
+
+h3
+{
+	color: rgb(193, 150, 233);
+	text-align: center;
+	font-size: 27px;
+}
+h4
+{
+	text-align: center;
+	background-color:rgb(147, 90, 201);
+	color: white;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: 17px;
+}
+.ligne1
+{
+	display: flex;
+	flex-direction: wrap;
+	padding-bottom: 15px;
+	font-size: 20px;
+
+}
+.ligne2
+{
+	display: flex;
+	flex-direction: wrap;
+	padding-bottom: 15px;
+
+}
+.ligne3
+{
+	display: flex;
+	flex-direction: wrap;
+}
+
+.puce
+{
+	
+	padding-left: 150px;
+}
+
+.année
+{
+	padding-left: 50px;
+	font-size: 20px;
+	width: 30%;
+}
+
+.texte
+{	
+	width: 50%;
+	font-size: 20px;
+}
+.recommandations
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 20px;
+	
+}
+
+#image_fin
+{
+
+	margin-left: 50px;
+	margin-top: 50px;
+}
+em
+{
+	font-style: italic;
+}
+
+
+	
+@media all and (max-width : 1024px)	/*tous les écrans de taille inférieure à 1024ps*/
+
+{
+	body
+	{
+		
+		background-color:white;
+		
+	}
+	
+	#section1 /*premier bloc elements direction colonne*/
+	{
+		display:flex;
+		flex-direction: column;
+		width: 200px;
+		height:auto;
+		padding-top: 0px;
+	
+	}
+	
+	.photo
+	{
+		height: 180px;
+		margin-left: 10px;
+		padding-bottom:5px;
+		
+	}
+	
+	h2 /*tous les titres*/
+	{
+		text-align: center;
+		background-color: rgb(147, 90, 201);
+		border:1px solid rgb(147, 90, 201);
+		color: white;
+		font-size: 17px;
+	}
+	
+	.element1
+	{
+		text-align: justify;
+		background-color: rgb(205, 202, 241);
+		font-size: 14px;
+	
+	}
+	.element2
+	{
+		text-align: justify;
+		background-color: rgb(205, 202, 241);
+		font-size: 14px;
+	}
+	.strong
+	{
+		text-align: justify; font-weight:bold; font-size: 15px;
+	}
+	
+	.element3
+	{
+	
+		background-color: rgb(205, 202, 241);
+		font-size: 14px;
+	}	
+	.element4
+	{
+		text-align: justify;
+		background-color: rgb(205, 202, 241);
+		font-size: 12px;
+	}	
+	
+	#section2 /*deuxième bloc en colonne sauf les textes de recommandation*/
+	{
+		display:flex;
+		flex-direction: column;
+		width: auto;
+	
+	}
+
+	h1
+	{
+		font-size:30px; margin:auto;
+		color: rgb(147, 90, 201);
+		text-align: center;
+	}
+
+	h3
+	{
+		color: rgb(193, 150, 233);
+		text-align: center;
+		font-size: 20px;
+	}
+	h4
+	{
+		text-align: center;
+		background-color: rgb(147, 90, 201);
+		color: white;
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: 15px;
+	}
+	.ligne1
+	{
+		display: flex;
+		flex-direction: wrap;
+		padding-bottom: 12px;
+
+	}
+	.ligne2
+	{
+		display: flex;
+		flex-direction: wrap;
+		padding-bottom: 12px;
+
+	}
+	.ligne3
+	{
+		display: flex;
+		flex-direction: wrap;
+	}
+
+	.puce
+	{
+		padding-left: 15px;
+	}
+
+	.année
+	{
+		padding-left: 5px;
+		font-size: 15px;
+		width: 20%;
+	}
+
+	.texte
+	{
+		width: 50%;
+		font-size: 15px;
+	}
+	.recommandations
+	{
+		display: flex;
+		flex-direction:space-around;
+		padding-left: 4px;
+		font-size: 13px;
+		
+	}
+	
+	em
+	{
+		font-style: italic;
+		
+	}
+
+	
+	
+
+		
+}
+
+
+	
+
+
+
