@@ -1,0 +1,380 @@
+body
+{
+	background-color:white; 
+	border:2px solid rgb(147, 90, 201);
+	width:80%;
+	margin:auto;
+	display: flex;
+	height: auto;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*partie de gauche bloc1 en vertical--------------------------------------------------*/
+#section1
+{
+	display:flex;
+	flex-direction: column;
+	width: 30%;
+	height:auto;
+
+}
+
+.photo img
+{
+	width: 50%;
+	height: 50%;
+	margin-left: 20%;
+}
+.photo
+{
+	background-color: rgb(205, 202, 241);		
+	
+}
+
+h2 /*tous les titres de gauche*/
+{
+	text-align: center;
+	background-color:rgb(147, 90, 201);
+	border:2px solid rgb(147, 90, 201);
+	color: white;
+	font-size: 17px;
+}
+
+p
+{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.element1
+{
+	text-align: justify;
+	background-color: rgb(205, 202, 241);
+	font-size: 17px;
+
+}
+.element2
+{
+	text-align: justify;
+	background-color: rgb(205, 202, 241);
+	font-size: 17px;
+}
+.strong
+{
+	text-align: justify; font-weight:bold; font-size: 20px;
+}
+
+.element3
+{
+	
+	background-color: rgb(205, 202, 241);
+	font-size: 17px;
+}	
+.element4
+{
+	text-align: justify;
+	background-color: rgb(205, 202, 241);
+	font-size: 17px;
+	height: 22%;
+}
+
+.element4 img
+{
+	width: 20%;
+	padding:1%;
+	margin:1%;
+}
+
+
+/*partie de droite bloc2 en vertical----------------------------------------*/
+#section2
+{
+	display:flex;
+	flex-direction: column;
+	width: auto;	
+	
+}
+
+h1 /*Nom*/
+{
+	font-size:1.8em; margin-left: 2%;
+	color:rgb(147, 90, 201);
+	font-family: monospace;
+	padding-top: 3%;
+}
+
+h5/*Profession*/
+{
+	color: rgb(193, 150, 233);
+	margin-left: 2%;
+	font-size: 1.4em;
+	font-family: monospace;
+	margin-bottom: 5%;
+}
+
+h4 /*titres formation expériences recommandations*/
+{
+	
+	border-bottom: 3px solid rgb(193, 150, 233);
+	width: 80%;
+	margin: auto;
+	
+}
+
+
+h4 img
+{
+	margin-left: 2%;
+	width: 5%;
+
+} 
+
+em
+{
+	margin-left: 3%;
+	font-size: 1.5em;
+}
+
+
+.ligne1
+{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 15px;
+	margin-left:10%;
+
+}
+.ligne2
+{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 15px;
+	margin-left: 10%;
+
+}
+.ligne3
+{
+	display: flex;
+	flex-direction: row;
+	margin-left:10%;
+}
+
+.element_puce img
+{
+	width: 10%;
+}
+
+.element_année
+{
+	font-size: 20px;
+	width: 20%;
+}
+
+.element_texte
+{	
+	width: 40%;
+	font-size: 20px;
+}
+.recommandations /*deux elements côte à côte*/
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 20px;
+	
+}
+
+
+em
+{
+	font-style: italic;
+}
+
+				/*responsive*/
+	
+@media all and (max-width : 1024px)	/*tous les écrans de taille inférieure à 1024ps*/
+
+{
+	body
+	{
+		background-color:white; 
+		border:2px solid rgb(147, 90, 201);
+		width:100%;
+		display: flex;
+		height: auto;
+		font-family: Verdana, Geneva, Tahoma, sans-s
+			
+	}
+	
+	#section1 /*premier bloc elements direction colonne*/
+	{
+		display:flex;
+		flex-direction: column;
+		height:auto;
+		width: 35%;
+		padding-top: 0px;
+	
+	}
+	
+	.photo
+	{
+		padding-left: 0%;
+		width:100%;
+
+		background-color: rgb(205, 202, 241);
+		
+	}
+	
+	
+	
+	
+	h2 /*tous les titres*/
+	{
+		text-align: center;
+		background-color: rgb(147, 90, 201);
+		border:1px solid rgb(147, 90, 201);
+		color: white;
+		font-size: 1em;
+	}
+	
+	.element1
+	{
+		text-align: justify;
+		background-color: rgb(205, 202, 241);
+		font-size: 1.1em;
+			
+	}
+	.element2
+	{
+		text-align: justify;
+		background-color: rgb(205, 202, 241);
+		font-size: 1.1em;
+	}
+	.strong
+	{
+		text-align: justify; font-weight:bold; 
+		font-size: 0.9em;
+	}
+	
+	.element3
+	{
+	
+		background-color: rgb(205, 202, 241);
+		font-size: 1.1em;
+	}	
+	.element4
+	{
+		text-align: justify;
+		background-color: rgb(205, 202, 241);
+		height: auto;
+	}	
+	
+	
+	
+	/*--------------------------------------------*/
+	#section2 /*deuxième bloc en colonne sauf les textes de recommandation*/
+	{
+		display:flex;
+		flex-direction: column;
+		width:65%;
+	
+	}
+
+	h1
+	{
+		font-size:1.5em; margin:auto;
+		color: rgb(147, 90, 201);
+		margin-top: 5%;
+		margin-left:2%;
+	}
+
+	.identité p
+	{
+		color: rgb(193, 150, 233);
+		font-size: 1em;
+		margin-left:2%;
+	}
+	h4
+	{
+	
+		border-bottom:3px solid rgb(147, 90, 201);
+		color: rgb(147, 90, 201);
+		margin:auto;
+		font-size: 0.7em;
+		width: 80%;
+	}
+
+	h4 img
+	{
+		display:none;
+	}
+	
+	.ligne1
+	{
+		display: flex;
+		flex-direction: row;
+		padding-bottom: 2%;
+		margin-left:10%;
+	}
+	
+	.ligne2
+	{
+		display: flex;
+		flex-direction: row;
+		padding-bottom: 2%;
+		margin-left:10%;
+	}
+
+	.ligne3
+	{
+		display: flex;
+		flex-direction: row;
+		padding-bottom: 2%;
+		margin-left:10%;
+
+	}
+
+	.element_puce
+	{
+		width: 18%;
+		height: 18%;
+	}
+
+	.element_année
+	{
+		margin-left: 5%;
+	}
+
+	.element_texte
+	{
+		
+		margin-left: 5%;
+	}
+	.recommandations
+	{
+		display: flex;
+		font-size: 1.1em;
+		
+	}
+	
+	
+	em
+	{
+		font-style: italic;
+		
+	}
+
+	p
+	{
+		font-size: 0.6em;
+	}
+	
+
+		
+}
+
+
+	
+
+
+
