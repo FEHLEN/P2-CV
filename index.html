@@ -1,195 +1,180 @@
-<!--Création de la page CV en html-->
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<meta charset = "utf-8"/>
-		<link rel = "stylesheet" href ="Forme_CV.css"/>
-        <title> CV juin 2020 </title>
-    </head>
+		<meta name="viewport"content="width=device-width"/>
+		<link rel = "stylesheet" href ="cv_en_forme.css"/>
+		<link rel= "stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		<title> CV juin 2020 </title>
 
-    <body>
+	</head>
+
+		<body>
+			<header>
+			
+				<div class="photo">
+					<p>
+					<img src="imagesCV/photo_douce.jpg" alt = "photo identité" width="150px" height="150px" /><!--image paramétrer la taille-->
+					</p>
+				</div>
+			
+				<div class="identité"> <!--1er bloc présentation-->
+					<h1><span>Nelly</span>FEHLEN</h1>
+						<h3>Développeuse web junior</h3>
+				</div>
+			</header>
+
+			<section>
+			
+				<div class="section1"> <!--bloc de 30 % de largeur à gauche-->
+					<div class="element1"><!--présentation-->
+						<h2>CONTACT</h2>
+						<div class="adresse">Adresse<br>64140 Pau</div>
+						<div class="téléphone">Téléphone<br>06 38 70 09 81</div>
+						<div class="mail">Email<br>nelly.lab@orange.fr</div>
+						<div class="web">Site web<br>www.name.com</div>
+						<div class="skype">Skype<br>@nom_dutilisateur</div>
+					</div>
+	
+
+					
+					<div class="element2">
+						<h2>A PROPOS DE MOI</h2>
+						<p>Je suis passionnée d'informatique depuis mon adolescence. Pour me perfectionner en bureautique j'ai suivi des formations sur des logiciels de traitement de texte, de comptabilité.<br> J'avais des connaissances en développement Web, j'ai cessé de pratiquer après 2015. Ma curiosité est présente chaque jour pour les nouvelles technologies, l'intelligence augmentée, le développement des outils numériques.<br>
+						Actuellement par passion, je me professionnalise dans le développement web frontend et backend. Je pratique la communication positive, méthode de Marshall Rosenberg pour aider à la cohésion sociale.</p>
+						</div>
+						<div class="element2"></div>
 		
-        <div id="section1"> <!--bloc de 30 % de largeur à gauche-->
-        
-            <div class="photo">
-                <p>
-                <img src="images/photo_douce.JPG" alt = "photo identité"/><!--image paramétrer la taille-->
-                </p>
-            </div>
-                
-            <div class="element1"><!--présentation-->
-                <h2>A propos de moi</h2>
-                <p>Je suis passionnée d'informatique depuis mon adolescence. Autodidacte je me forme avec des tutoriels et les réseaux sociaux.</p>
-                <p>Ma curiosité est présente chaque jour pour les nouvelles technologies, l'intelligence augmentée, le développement des outils numériques</p>
-                <p>Je pratique la communication positive, méthode de Marshall Rosenberg, ainsi que la méditation de pleine conscience.</p>
-            </div>
-
-                
-            <div class="element2">
-                <h2>Outils et langages</h2>
-                <p><strong>Technique</strong></p>
-                <p>Montage d'un PC. Installation de système d'exploitation.</p>
-                <p>Chercher la cause d'une panne</p>
-                <p><strong>Langages et outils</strong></p>
-                <p>Html5, Css3</p>
-                <p>Php7, Python3</p>
-                <p>VScode, Bootstrap</p>
-                <p>Git, GitHub</p>
-            </div>
-
-            <div class="element3">
-                <h2>Contactez-moi</h2>
-                <p><strong>Adresse : </strong>64140 Pau</p>
-                <p><strong>Téléphone : </strong>06 38 70 09 81</p>
-                <p><strong>Mail : </strong> nelly.lab@orange.fr</p>
-                <p><strong>Twitter : </strong><br>
-                    fehlenlili64100@gmail.com</p>
-
-            </div>
-
-                
-            <div class="element4">
-                <h2>Loisirs</h2>
-                <div class="images"> 
-                    <img src="images/bricolage.png" alt="icone bricolage"/><img src="images/musique.png" alt="icone musique"/><img src="images/piscine.png" alt="icone picsine"/><img src="images/promenade-chien.png" alt="icone promenade"/>
-                </div>
-                
-            </div>
-        
-        </div>
-
-            <div id="section2"><!--bloc positionné à côté du premier prenant le reste de la place-->
-										
-                <div class="identité"> <!--1er bloc présentation-->
-                    <h1>FEHLEN NELLY </h1>
-                    <h3>DEVELOPPEUR WEB JUNIOR</h3>
-                </div>
-        
-                    <!--2 éme bloc formation-->		
-                <h4><img src="images/diplome.png" alt="icone diplome"><em>FORMATION</em></h4> 	
-        
-                <div class="ligne1"> <!--trois éléments contenus dans le bloc formation-->
-                    <div class="element_puce">
-                        <p><img src="images/bouton_violet.png" alt="bouton de puce"></p>
-                    </div>
-
-                    <div class="element_année">
-                        <p>En cours</p>
-                    </div>
-
-                    <div class="element_texte">
-                        <p>Développeur Web Junior, formation chez Openclassrooms</p>
-                    </div>
-                </div>
-
-                <div class="ligne2">
-                    
-                    <div class="element_puce">
-                        <p><img src="images/bouton_violet.png" alt="bouton de puce"></p>
-                    </div>
-
-                    <div class="element_année">
-                        <p>2018 <br>
-                           2019</p>
-                    </div>
-
-                    <div class="element_texte">
-                        <p>Diplôme obtenu Bac Pro Gestion Administration, formation chez CNED à distance</p>
-                    </div>
-                </div>
-
-                <div class="ligne3">
-                    <div class="element_puce">
-                        <p><img src="images/bouton_violet.png" alt="bouton de puce"></p>
-                    </div>
-            
-                    <div class="element_année">
-                        <p>2014<br>
-                           2018</p>
-                    </div>
-
-                    <div class="element_texte">
-                        <p>IFAS de Nancy 54<br>
-                           Diplôme d'Etat d'Aide Soignante</p>
-                    </div>
-                </div>
-
-                <!--3 éme bloc expérience-->
-			    <h4><img src="images/sacocheTravail.png" alt="icone sacoche de travail"><em> EXPERIENCES</em></h4>
-				<div class="ligne1">
-					<div class="element_puce">
-						<p><img src="images/bouton_violet.png" alt="bouton de puce"></p>
-					</div>
-
-					<div class="element_année">
-						<p>2011</p>
-					</div>
-
-					<div class="element_texte">
-						<p>Pic'Link<br>
-                           Mise à jour de site et design en html et Css</p>
-    				</div>
-				</div>
-
-				<div class="ligne2">
-					<div class="element_puce">
-						<p><img src="images/bouton_violet.png" alt="bouton de puce"></p>
-					</div>
-
-					<div class="element_année">
-						<p>2005<br>
-						   2016</p>
-					</div>
-
-					<div class="element_texte">
-						<p>Infogamma<br>
-						   Secrétariat - installation de système d'exploitation et de logiciels</p>
+					<div class="element3">
+						<h2>LOISIRS</h2>
+						<div class="images"> 
+							<img src="imagesCV/bricolage.png" alt="icone bricolage"/><img src="imagesCV/lecture.png" alt="icone lecture"/><img src="imagesCV/promenade-chien.png" alt="icone promenade"/>
+						</div>
+					
 					</div>
 				</div>
-
-				<div class="ligne3">
-					<div class="element_puce">
-						<p><img src="images/bouton_violet.png" alt="bouton de puce"></p>
-					</div>
-
-					<div class="element_année">
-						<p>2012<br>
-						   2018</p>
-					</div>
-
-					<div class="element_texte">
-						<p>Aide soignante</p>
-						<p>Ehpad Jurançon (64)</p>
-						<p>Ehpad Baccarat (54)</p>
-						<p>Ssiad Lunéville (54)</p>
-					</div>
-                </div>
-                
-                <h4><img src="images/crayon.png" alt="icone crayon"><em>RECOMMANDATIONS</em></h4><!--4éme bloc-->
-				<div class="recommandations">
-					<div class="texte1">
-						<p><em>Pic'Link</em><br>
-						       Arnoult Jérôme<br>
-						       Directeur</p>
-						<p>Tél : xx xx xx xx xx<br>
-						   Mail :<br> contact@pics-link.com</p>
-					</div>
-
-					<div class="texte2">
-						<p><em>INFOGAMMA</em><br>
-						   Lab Thierry<br>
-						   Directeur</p>
-						<p>Tél : xx xx xx xx xx<br>
-						   Mail : <br>
-						   xxxx@xxxxx</p>
-						
-					</div>
-                </div>
-
-           	
-		    </div>		
+		
+					<div id="section2"><!--bloc positionné à côté du premier prenant le reste de la place-->
 				
-    </body>
-</html> 
-                    
+							<!--2 éme bloc formation expériences recommandations-->		
+						<div class="titre_souligné">
+							<i class="fa fa-graduation-cap" style="color:rgb(252, 187, 8); font-size: 2rem"></i>
+							<h4>FORMATION</h4>
+						</div>	
+				
+						<div class="ligne1"> <!--trois éléments contenus dans le bloc formation-->
+							<div class="element_puce">
+								<i class="fa fa-dot-circle-o" style="color:rgb(252, 187, 8); font-size: 1.3rem"></i>
+							</div>
 
+							<div class="element_année">
+								<p>En cours<br>PAU</p>
+							</div>
+
+							<div class="element_texte">
+								<p>OPENCLASSROOMS</p><p>Formation Développeur Web Junior</p>	
+							</div>
+						</div>
+
+						<div class="ligne2">
+							<div class="element_puce">
+								<i class="fa fa-circle" style="color:rgb(252, 187, 8); font-size:0.9rem"></i>
+							</div>
+
+							<div class="element_année">
+								<p>2018-2019 <br>PAU</p>
+							</div>
+
+							<div class="element_texte">
+								<p>CNED Ecole à distance</p><p>Diplôme obtenu Bac Pro Gestion Administration, </p>
+							</div>
+						</div>
+
+						<div class="ligne3">
+							<div class="element_puce">
+								<i class="fa fa-circle" style="color:rgb(252, 187, 8); font-size: 0.9rem;"></i>
+							</div>
+					
+							<div class="element_année">
+								<p>2014-2018<br>NANCY</p>
+							</div>
+
+							<div class="element_texte">
+								<p>IFAS de Nancy 54</p><p>Diplôme d'Etat d'Aide Soignante</p>
+							</div>
+						</div>
+
+							<!--3 éme bloc expérience-->
+						<div class="titre_souligné">
+							<i class="fa fa-briefcase" style="color:rgb(252, 187, 8); font-size: 2rem"></i>
+							<h4>EXPERIENCE PROFESSIONNELLE</h4>
+						</div>
+
+						<div class="ligne1">
+							<div class="element_puce">
+								<i class="fa fa-dot-circle-o" style="color:rgb(252, 187, 8);font-size: 1.3rem;"></i>
+							</div>
+
+							<div class="element_année">
+								<p>2011<br>NANCY</p>
+							</div>
+
+							<div class="element_texte">
+								<p>PIC'LINK</p><p>Développeur en frontend</p>
+								<p>Mise à jour de site et design en html et Css</p>
+							</div>
+						</div>
+
+						<div class="ligne2">
+							<div class="element_puce">
+								<i class="fa fa-circle" style="color:rgb(252, 187, 8); font-size: 0.9rem;"></i>
+							</div>
+
+							<div class="element_année">
+								<p>2005-2016<br>Rosières aux Salines</p>
+							</div>
+
+							<div class="element_texte">
+								<p>INFOGAMMA</p><p>Secrétaire polyvalente</p>
+								<p>Tout les travaux de secrétariat et installation de système d'exploitation et de logiciels</p>
+							</div>
+						</div>
+
+						<div class="ligne3">
+							<div class="element_puce">
+								<i class="fa fa-circle" style="color:rgb(252, 187, 8);font-size: 0.9rem;"></i>
+							</div>
+
+							<div class="element_année">
+								<p>2011-2018<br>Jurançon (64)<br>Baccarat-Lunéville(54)</p>
+							</div>
+
+							<div class="element_texte">
+								<p>EHPAD, CHU, et SSIAD</p><p>Aide Soignante</p>
+								<p>Services Personnes Agées, service d'urologie, service de traumatologie, service des urgences</p>
+							</div>
+						</div>
+
+			
+						<!--4éme bloc-->
+						<div class="titre_souligné">
+							<i class="fa fa-pencil" style="color:rgb(252, 187, 8); font-size:2rem"></i>
+							<h4>RECOMMANDATIONS</h4>
+						</div>
+
+						<div class="recommandations">
+							<div class="texte1">
+								<p><em>PIC'LINK</em><br>Arnoult Jérôme<br>Directeur</p>
+								<p>Tél : <br>Mail :<br> contact@pics-link.com</p>
+							</div>
+
+							<div class="texte2">
+								<p><em>INFOGAMMA</em><br>Lab Thierry<br>Directeur</p>
+								<p>Tél : <br>Email : <br>name@e-mail.com</p>
+						
+							</div>
+						</div>
+					</div>		
+			</section>	
+		</body>
+</html>
