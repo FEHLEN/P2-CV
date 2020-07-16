@@ -16,7 +16,7 @@ header /*contient la photo le nom et la profession*/
 {
 	width: 100%;
 	display: flex;
-	display:row;
+	flex-direction:row;
 }
 
 .photo{
@@ -60,7 +60,6 @@ h2 /*tous les titres de gauche*/
 {
 	text-align: center;
 	background-color:black;
-	border:2p solid black;
 	color:rgb(252, 187, 8);
 	font-size: 20px;
 	padding-top: 2%;
@@ -140,7 +139,7 @@ h3/*Profession*/
 
 	margin-left: 8%;
 	font-size: 1.4em;
-	font-family: Bahnschrift T 18,'Times New Roman';
+	font-family: Bahnschrift T18,'Times New Roman';
 	margin-bottom: 10%;
 }
 
@@ -249,7 +248,7 @@ em
 	{
 	width: 100%;
 	display: flex;
-	display:row;
+	flex-direction:row;
 	}
 
 	.photo
@@ -267,15 +266,16 @@ em
 	
 	}
 	
-	section
+	section /*ensemble des deux blocs*/
 	{
 		display: flex;
 		flex-direction:column;
 	}
-	.section1 /*premier bloc elements direction colonne*/
+	.section1 
 	{
 		display:flex;
 		width: 100%;
+		border:none;
 	}
 	
 	
