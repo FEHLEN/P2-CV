@@ -428,13 +428,15 @@ em
 	}
 	
 	h4{
-		width:90%;
-		padding-left: 1%;
+		width:70%;
+		padding-left: 2%;
+		margin-left: 2%;
 		font-size: 0.8rem;
 	}
 	.bloc_souligné i
 	{
 		margin-bottom: 2%;
+		width:15%
 	}
 	
 	.ligne1
