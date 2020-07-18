@@ -6,8 +6,8 @@ body /*toute la page*/
 	margin:auto;
 	display: flex;
 	height: auto;
-	font-family: sans-serif;
 	flex-direction: column;
+	font-family: sans-serif;
 }
 
 
@@ -24,17 +24,50 @@ header /*contient la photo le nom et la profession*/
 	background-color: rgb(252, 187, 8);
 }
 
-header .photo img{
-	
-	width: 170px;
-	height: 170px;
-	margin:15%;
-	border:1px solid rgb(252, 187, 8);
+.photo img /*taille de photo et bordure sur une photo rectangulaire*/
+{	
+	width: 180px;
+	height: 180px;
+	border:3px solid rgba(0,0,3,0.1);
 	border-radius: 50%;
+}
+.photo p{
+	margin: 12% 22% 12% 22%;
+
 }
 
 .identité{
-	width: 65%;
+	width:70%;
+}
+
+h1 /*Nom*/
+{
+	margin:0;
+	padding:0;
+	font-size:2.2rem; margin-left: 8%;
+	margin-top: 10%;
+	font-family:Arial;
+
+}
+h1 span /*prénom*/
+{
+	font-family:'Bradley Hand ITC';
+	color:rgb(252, 187, 8);
+	font-size: 2.8rem;
+	font-weight: bold;
+}
+
+h3/*Profession*/
+{
+	margin-left: 8%;
+	font-size: 1.4em;
+	font-family: 'Bahnschrift T18','Times New Roman';
+	margin-bottom: 10%;
+}
+
+h3 span{
+	text-decoration: underline;
+	text-decoration-color:  rgb(252, 187, 8);
 }
 
 
@@ -89,7 +122,7 @@ p{
 .element2{
 	font-size: 17px;
 	text-align: justify;
-	height: 33%;
+	height: 34%;
 }
 
 .strong{
@@ -97,15 +130,19 @@ p{
 }
 
 .element3{
-	text-align: center;
 	font-size: 17px;
 }
 
 .element3 img{
-	width: 20%;
-	padding:1%;
-	margin:1%;
+	margin:0;
+	padding:0;
+	width: 15%;
+	padding:3%;
+	margin:5%;
 	margin-top: 2%;
+	border:1px solid black;
+	border-radius: 50%;
+	
 }
 
 
@@ -115,36 +152,14 @@ p{
 	display:flex;
 	flex-direction: column;
 	width: auto;
-	width: 65%;	
+	width: 70%;	
 	
 }
 
-h1 /*Nom*/
+.bloc_souligné /*bloc formation expériences recommandations*/
 {
-	font-size:2.2rem; margin-left: 8%;
-	margin-top: 10%;
-	font-family:Source Code Pro Extralight;
-
-}
-span /*prénom*/
-{
-	font-family:Bradley Hand ITC;
-	color:rgb(252, 187, 8);
-	font-size: 2.8rem;
-	font-weight: bold;
-}
-
-h3/*Profession*/
-{
-
-	margin-left: 8%;
-	font-size: 1.4em;
-	font-family: Bahnschrift T18,'Times New Roman';
-	margin-bottom: 10%;
-}
-
-.titre_souligné /*titres formation expériences recommandations*/
-{
+	padding:0;
+	margin:0;
 	border-bottom: 3px solid rgb(252, 187, 8);
 	width: 80%;
 	margin:auto;
@@ -154,18 +169,22 @@ h3/*Profession*/
 }
 
 
-.titre_souligné i{
+.bloc_souligné i{
+	margin:0;
+	padding:0;
 	margin-left: 2%;
 	color:rgb(252, 187, 8);
 	width: 5%;
-	padding-top: 6%;
+	padding-bottom: 1%;
 } 
 
 h4{
+	margin:0;
+	padding:0;
 	margin-left: 8%;
 	font-size: 1.5em;
 	color:black;
-	font-family: 'Times Nex Roman';
+	font-family: sans-serif;
 	padding-bottom: 0px;
 }
 
@@ -206,9 +225,9 @@ h4{
 
 .element_texte
 {	
-	width: 65%;
+	width: 70%;
 	font-size: 20px;
-	margin-left: 5%;
+	margin-left: 8%;
 }
 .recommandations /*deux elements côte à côte*/
 {
@@ -218,8 +237,8 @@ h4{
 	
 }
 .texte1, .texte2{
-	padding-bottom: 8%;
-	margin-left: 5%;
+	padding-bottom: 7%;
+	margin-left: 6%;
 	width: 40%;
 }
 
@@ -227,6 +246,7 @@ h4{
 em
 {
 	font-weight: bold;
+	font-style: normal;
 }
 
 				/*responsive*/
@@ -237,7 +257,7 @@ em
 	body
 	{
 	
-	width: 98%;
+	width: 100%;
 	display:flex;
 	flex-direction: column;
 	border:none;
@@ -251,21 +271,63 @@ em
 	flex-direction:row;
 	}
 
+	.identité{
+		width: 70%;
+		padding-left: 3%;
+	}
+
+	.identité h1 /*Nom*/
+	{
+	margin:0;
+	width: auto;
+	font-size:1.1rem;
+	margin-left: 2%;
+	margin-top: 8%;
+	font-family:Arial;
+	}	
+	h1 span /*prénom*/
+	{
+	font-family:'Bradley Hand ITC';
+	color:rgb(252, 187, 8);
+	font-size: 1.5rem;
+	font-weight: bold;
+	}
+
 	.photo
 	{
-	background-color: white;	
+	padding:0;
+	margin:0;
+	background-color: white;
+	width: 30%;	
 	}
 
 	header .photo img{
-	
-	width: 70px;
-	height: 70px;
-	margin:15%;
+	margin:0;
+	padding:0;
+	width: 80px;
+	height: 80px;
+	margin:5% 0% 5% 0%;
 	border:1px solid rgb(252, 187, 8);
 	border-radius: 45%;
-	
 	}
+
+	h3/*Profession*/
+	{
+	margin-left: 2%;
+	font-size: 1.1em;
+	font-family: 'Bahnschrift T18','Times New Roman';
+	margin-bottom: 7%;
+	}
+
+	h3 span{
+	text-decoration: underline;
+	text-decoration-color:  rgb(252, 187, 8);
+	font-size: 1.1rem;
+	}
+
+
 	
+
 	section /*ensemble des deux blocs*/
 	{
 		display: flex;
@@ -341,6 +403,8 @@ em
 		display:flex;
 		flex-direction: column;
 		width:100%;
+		margin:0;
+		margin-top: 2%;
 	
 	}
 
@@ -353,9 +417,8 @@ em
 
 	}
 
-	.titre_souligné /*titres formation expériences recommandations*/
+	.bloc_souligné /*titres formation expériences recommandations*/
 	{
-	
 	border-bottom: 3px solid rgb(252, 187, 8);
 	width: 80%;
 	margin: auto;
@@ -365,12 +428,13 @@ em
 	}
 	
 	h4{
-		padding-left: 5%;
-		font-size: 1rem;
+		width:90%;
+		padding-left: 1%;
+		font-size: 0.8rem;
 	}
-	.titre_souligné i
+	.bloc_souligné i
 	{
-		margin-top: 2%;
+		margin-bottom: 2%;
 	}
 	
 	.ligne1
@@ -400,7 +464,7 @@ em
 
 	.element_puce
 	{
-		width: 18%;
+		width: 7%;
 		height: 18%;
 	}
 
@@ -424,8 +488,7 @@ em
 	
 	em
 	{
-		font-style: italic;
-		
+		font-style: normal
 	}
 
 	p
