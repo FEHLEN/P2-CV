@@ -1,12 +1,9 @@
 body /*toute la page*/
 {
-	background-color:white; 
-	width:80%;
+	background-color:white; width:80%;
 	border-right: 2px solid rgb(252, 187, 8);
-	margin:auto;
-	display: flex;
-	height: auto;
-	flex-direction: column;
+	margin:auto;height: auto;
+	display: flex;flex-direction: column;
 	font-family: sans-serif;
 }
 
@@ -26,14 +23,11 @@ header /*contient la photo le nom et la profession*/
 
 .photo img /*taille de photo et bordure sur une photo rectangulaire*/
 {	
-	width: 180px;
-	height: 180px;
-	border:3px solid rgba(0,0,3,0.1);
-	border-radius: 50%;
+	width: 180px;height: 180px;
+	border:3px solid rgba(0,0,3,0.1);border-radius: 50%;
 }
 .photo p{
 	margin: 12% 22% 12% 22%;
-
 }
 
 .identité{
@@ -42,12 +36,9 @@ header /*contient la photo le nom et la profession*/
 
 h1 /*Nom*/
 {
-	margin:0;
-	padding:0;
-	font-size:2.2rem; margin-left: 8%;
-	margin-top: 10%;
+	margin:0;padding:0;
+	font-size:2.2rem; margin-left: 8%;margin-top: 10%;
 	font-family:Arial;
-
 }
 h1 span /*prénom*/
 {
@@ -59,10 +50,8 @@ h1 span /*prénom*/
 
 h3/*Profession*/
 {
-	margin-left: 8%;
-	font-size: 1.4em;
-	font-family: 'Bahnschrift T18','Times New Roman';
-	margin-bottom: 10%;
+	margin-left: 8%;margin-bottom: 10%;
+	font-size: 1.4em;font-family: 'Bahnschrift T18','Times New Roman';
 }
 
 h3 span{
@@ -70,21 +59,15 @@ h3 span{
 	text-decoration-color:  rgb(252, 187, 8);
 }
 
-
-
-
 section /*contient deux sections côte à côte*/
 {
-	display: flex;
-	flex-direction: row;
+	display: flex;flex-direction: row;
 	width: 100%;
 }
 
 .section1{
-	display:flex;
-	flex-direction: column;
-	width: 30%;
-	height:auto;
+	display:flex;flex-direction: column;
+	width: 30%;height:auto;
 	background-color: rgb(252, 187, 8);
 }
 
@@ -94,16 +77,12 @@ h2 /*tous les titres de gauche*/
 	text-align: center;
 	background-color:black;
 	color:rgb(252, 187, 8);
-	font-size: 20px;
-	padding-top: 2%;
-	padding-bottom: 2%;
-	font-family: sans-serif;
-	
+	font-size: 20px;font-family: sans-serif;
+	padding-top: 2%;padding-bottom: 2%;
 }
 
 p{
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 10%;margin-right: 10%;
 }
 
 .element1{
@@ -111,8 +90,7 @@ p{
 }
 
 .adresse,.téléphone, .mail, .web{
-	padding-bottom: 2%;
-	margin-left: 10%;
+	padding-bottom: 2%;margin-left: 10%;
 }
 
 .skype{
@@ -120,95 +98,64 @@ p{
 }
 
 .element2{
-	font-size: 17px;
-	text-align: justify;
+	font-size: 17px;text-align: justify;
 	height: 34%;
 }
 
-.strong{
-	text-align: justify; font-weight:bold; font-size: 20px;
-}
 
 .element3{
 	font-size: 17px;
 }
 
 .element3 img{
-	margin:0;
-	padding:0;
+	margin:0;padding:0;
 	width: 15%;
-	padding:3%;
-	margin:5%;
+	padding:3%;margin:5%;
 	margin-top: 2%;
-	border:1px solid black;
-	border-radius: 50%;
-	
+	border:1px solid black;border-radius: 50%;	
 }
-
 
 /*partie de droite bloc2 en vertical----------------------------------------*/
 #section2
 {
-	display:flex;
-	flex-direction: column;
-	width: auto;
+	display:flex;flex-direction: column;
 	width: 70%;	
-	
 }
 
 .bloc_souligné /*bloc formation expériences recommandations*/
 {
-	padding:0;
-	margin:0;
+	padding:0;margin:0;
 	border-bottom: 3px solid rgb(252, 187, 8);
-	width: 80%;
-	margin:auto;
+	width: 80%;margin:auto;
 	padding-top: 7px;
-	display:flex;
-	flex-direction: row;
+	display:flex;flex-direction: row;
 }
 
 
 .bloc_souligné i{
-	margin:0;
-	padding:0;
-	margin-left: 2%;
+	margin:0;padding:0;
+	margin-left: 2%;padding-bottom: 1%;
 	color:rgb(252, 187, 8);
 	width: 5%;
-	padding-bottom: 1%;
 } 
 
 h4{
-	margin:0;
-	padding:0;
-	margin-left: 8%;
-	font-size: 1.5em;
+	margin:0;padding:0;
+	margin-left: 8%;padding-bottom: 0px;
+	font-size: 1.5em;font-family: sans-serif;
 	color:black;
-	font-family: sans-serif;
-	padding-bottom: 0px;
 }
 
-
-.ligne1 /*contient la puce les années et le texte*/
+.ligne /*contient la puce les années et le texte*/
 {
-	display: flex;
-	flex-direction: row;
-	padding-top: 12px;
-	margin-left:10%;
+	display: flex;flex-direction: row;
+	padding-top: 12px;margin-left:10%;
 
 }
+
 .ligne2
 {
-	display: flex;
-	flex-direction: row;
-	padding-bottom: 15px;
-	margin-left: 10%;
-
-}
-.ligne3
-{
-	display: flex;
-	flex-direction: row;
+	display: flex;flex-direction: row;
 	margin-left:10%;
 }
 
@@ -219,26 +166,21 @@ h4{
 
 .element_année
 {
-	font-size: 20px;
-	width: 20%;
+	font-size: 20px;width: 20%;
 }
 
 .element_texte
 {	
 	width: 70%;
-	font-size: 20px;
-	margin-left: 8%;
+	font-size: 20px;margin-left: 8%;
 }
 .recommandations /*deux elements côte à côte*/
 {
-	display: flex;
-	flex-direction: row;
+	display: flex;flex-direction: row;
 	font-size: 20px;
-	
 }
 .texte1, .texte2{
-	padding-bottom: 7%;
-	margin-left: 6%;
+	padding-bottom: 7%;margin-left: 6%;
 	width: 40%;
 }
 
@@ -258,17 +200,14 @@ em
 	{
 	
 	width: 100%;
-	display:flex;
-	flex-direction: column;
+	display:flex;flex-direction: column;
 	border:none;
-	
 	}
 	
 	header
 	{
 	width: 100%;
-	display: flex;
-	flex-direction:row;
+	display: flex;flex-direction:row;
 	}
 
 	.identité{
@@ -278,60 +217,46 @@ em
 
 	.identité h1 /*Nom*/
 	{
-	margin:0;
+	margin:0;margin-top: 8%;margin-left: 2%;
 	width: auto;
-	font-size:1.1rem;
-	margin-left: 2%;
-	margin-top: 8%;
-	font-family:Arial;
+	font-size:1.1rem;font-family:Arial;
 	}	
+
 	h1 span /*prénom*/
 	{
 	font-family:'Bradley Hand ITC';
 	color:rgb(252, 187, 8);
-	font-size: 1.5rem;
-	font-weight: bold;
+	font-size: 1.5rem;font-weight: bold;
 	}
 
 	.photo
 	{
-	padding:0;
-	margin:0;
+	padding:0;margin:0;
 	background-color: white;
 	width: 30%;	
 	}
 
 	header .photo img{
-	margin:0;
-	padding:0;
-	width: 80px;
-	height: 80px;
+	margin:0;padding:0;
+	width: 80px;height: 80px;
 	margin:5% 0% 5% 0%;
-	border:1px solid rgb(252, 187, 8);
-	border-radius: 45%;
+	border:1px solid rgb(252, 187, 8);border-radius: 45%;
 	}
 
 	h3/*Profession*/
 	{
-	margin-left: 2%;
-	font-size: 1.1em;
-	font-family: 'Bahnschrift T18','Times New Roman';
-	margin-bottom: 7%;
+	margin-left: 2%;margin-bottom: 7%;
+	font-size: 1.1em;font-family: 'Bahnschrift T18','Times New Roman';
 	}
 
 	h3 span{
-	text-decoration: underline;
-	text-decoration-color:  rgb(252, 187, 8);
+	text-decoration: underline;text-decoration-color:  rgb(252, 187, 8);
 	font-size: 1.1rem;
 	}
 
-
-	
-
 	section /*ensemble des deux blocs*/
 	{
-		display: flex;
-		flex-direction:column;
+		display: flex;flex-direction:column;
 	}
 	.section1 
 	{
@@ -339,14 +264,11 @@ em
 		width: 100%;
 		border:none;
 	}
-	
-	
 		
 	h2 /*tous les titres*/
 	{
-		text-align: center;
+		text-align: center;font-size: 1em;
 		background-color: rgb(252, 187, 8);
-		font-size: 1em;
 		color:black;
 		width: 100%;
 	}
@@ -354,38 +276,24 @@ em
 	.element1
 	{
 		background-color: rgb(252, 187, 8);
-		font-size: 1em;
-		width: 100%;
-		display:flex;
-		flex-wrap: wrap;	
+		font-size: 1em;width: 100%;
+		display:flex;flex-wrap: wrap;	
 	}
 	.adresse{
 		margin-right: 14%;
 	}
 	
-	
-	
 	.element2
 	{
 		background-color: rgb(252, 187, 8);
 	}
-
 	.element2 p{
 		text-align: justify;
 		font-size: 1em;
 	}
 	
-	
-	
-	.strong
-	{
-		text-align: justify; font-weight:bold; 
-		font-size: 1em;
-	}
-	
 	.element3
 	{
-	
 		display:none;
 	}	
 	.element4
@@ -400,37 +308,28 @@ em
 	/*--------------------------------------------*/
 	#section2 /*deuxième bloc en colonne sauf les textes de recommandation*/
 	{
-		display:flex;
-		flex-direction: column;
+		display:flex;flex-direction: column;
 		width:100%;
-		margin:0;
-		margin-top: 2%;
-	
+		margin:0;margin-top: 2%;
 	}
 
 	
 	h1 /*Nom*/
 	{
-	font-size:2.2rem; margin-left: 8%;
-	margin-top: 10%;
+	font-size:2.2rem; margin-left: 8%;margin-top: 10%;
 	font-family:Source Code Pro Extralight;
-
 	}
 
 	.bloc_souligné /*titres formation expériences recommandations*/
 	{
 	border-bottom: 3px solid rgb(252, 187, 8);
-	width: 80%;
-	margin: auto;
-	padding-top: 6px;
-	display:flex;
-	flex-direction: row;
+	width: 80%;margin: auto;padding-top: 6px;
+	display:flex;flex-direction: row;
 	}
 	
 	h4{
 		width:70%;
-		padding-left: 2%;
-		margin-left: 2%;
+		padding-left: 2%;margin-left: 2%;
 		font-size: 0.8rem;
 	}
 	.bloc_souligné i
@@ -441,26 +340,20 @@ em
 	
 	.ligne1
 	{
-		display: flex;
-		flex-direction: row;
-		padding-bottom: 2%;
-		margin-left:10%;
+		display: flex;flex-direction: row;
+		padding-bottom: 2%;margin-left:10%;
 	}
 	
 	.ligne2
 	{
-		display: flex;
-		flex-direction: row;
-		padding-bottom: 2%;
-		margin-left:10%;
+		display: flex;flex-direction: row;
+		padding-bottom: 2%;margin-left:10%;
 	}
 
 	.ligne3
 	{
-		display: flex;
-		flex-direction: row;
-		padding-bottom: 2%;
-		margin-left:10%;
+		display: flex;flex-direction: row;
+		padding-bottom: 2%;margin-left:10%;
 
 	}
 
@@ -477,16 +370,13 @@ em
 
 	.element_texte
 	{
-		
 		margin-left: 5%;
 	}
 	.recommandations
 	{
 		display: flex;
 		font-size: 1.1em;
-		
 	}
-	
 	
 	em
 	{
@@ -496,10 +386,7 @@ em
 	p
 	{
 		font-size: 0.6em;
-	}
-	
-
-		
+	}	
 }
 
 
